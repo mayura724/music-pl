@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Music Player</title>
+    <link rel="stylesheet" href="mus.css">
+</head>
+<body>
+
+<div class="player">
+     <div class="cover">
+        <img id="coverImg" src="assetss/lola.png">
+    </div>
+
+    <h2 id="title">Song Name</h2>
+
+    <audio id="audio"></audio>
+    <div class="progress-container">
+    <span id="currentTime">0:00</span>
+
+    <input type="range" id="progress" value="0" min="0" max="100">
+
+    <span id="duration">0:00</span>
+</div>
+
+    <div class="controls">
+        <img id="prev" src="assetss/prev.png">
+        <img id="play" src="assetss/play.png">
+        <img id="next" src="assetss/next.png">
+    </div>
+</div>
+
+<script src="mus.js"></script>
+</body>
+</html>
